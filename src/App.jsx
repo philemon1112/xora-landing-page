@@ -1,5 +1,6 @@
 
 import './App.css'
+import Faq from './sections/faq'
 import Features from './sections/Features'
 import Header from './sections/Header'
 import Hero from './sections/Hero'
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Features />
       <Pricing />
+      <Faq />
     </main>
   )
 }
